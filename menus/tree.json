@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Generate tree",
+        "command": "tree:generate"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "tree",
+          "submenu": [
+            {
+              "label": "Generate tree",
+              "command": "tree:generate"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

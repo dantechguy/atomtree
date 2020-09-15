@@ -1,0 +1,24 @@
+{
+    "name": "tree",
+    "main": "./lib/main",
+    "version": "0.0.0",
+    "description": "Generate ascii trees",
+    "keywords": [
+        "ascii",
+        "tree",
+        "generate",
+        "create",
+        "convert",
+        "character",
+        "nested",
+        "list"
+    ],
+    "activationCommands": {
+        "atom-workspace": "tree:generate"
+    },
+    "repository": "https://github.com/dantechguy/atomtree",
+    "license": "MIT",
+    "engines": {
+        "atom": ">=1.0.0 <2.0.0"
+    }
+}
