@@ -27,16 +27,30 @@ third folder
 **Press `ctrl-alt-t`**
 
 ```
-root node
-├── first folder
-│   ├── second folder
-│   │   ├── file1
-│   │   └── file2
-│   └── file3
-└── third folder
-    ├── file4
-    └── fourth folder
-        └── file 5
+first folder
+├── second folder
+│   ├── file1
+│   └── file2
+└── file3
+third folder
+├── file4
+└── fourth folder
+    └── file 5
+```
+
+## Custom tree characters:
+
+```
+first folder
++-- second folder
+|   +-- file1
+|   \-- file2
+\-- file3
+third folder
++-- file4
+\-- fourth folder
+    \-- file 5
+
 ```
 
 
